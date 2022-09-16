@@ -1,0 +1,24 @@
+@use "./vars" as * ;
+
+@mixin btn($color,$f-s){
+    width: fit-content;
+    padding:0px 20px;
+    height: 45px;
+    background-color: $color;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: $f-s;
+    cursor: pointer;
+    font-weight: 700;
+}
+@mixin search($bg){
+    background-color: $bg;
+    height: 26px;
+    width: 250px;
+    border-radius: 6px;
+    border: 1px solid #d3d3d3;
+    color: white;
+    padding:10px;
+    font-size: 20px;
+}
